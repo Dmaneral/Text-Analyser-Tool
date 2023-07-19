@@ -1,0 +1,27 @@
+.TimeAndWordAnalyse {
+    width: 75%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 5px;
+}
+
+.TimeAndWordAnalyse > div > div {
+    color: #6a6964;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .TimeAndWordAnalyse {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

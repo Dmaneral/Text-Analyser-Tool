@@ -1,0 +1,31 @@
+.Header {
+    background-color: #f1f7ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid gainsboro;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #202020;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.social img {
+    width: 70%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

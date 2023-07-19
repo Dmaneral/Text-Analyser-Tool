@@ -1,0 +1,27 @@
+.Body {
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 3rem;
+    background-image: url(../assets/pattern.png);
+    background-position: top;
+    background-attachment: fixed;
+}
+
+textarea {
+    width: 75%;
+    height: 500px;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    outline: none;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #aaaaaa;
+}

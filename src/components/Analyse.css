@@ -1,0 +1,30 @@
+.Analyse {
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.Analyse div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+label {
+    color: #6a6964;
+}
+
+.Analyse > div > div {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
